@@ -19,4 +19,5 @@ git clone https://github.com/tinyos/tinyos-main
 echo "Installing tinyos"
 cd tinyos-main/tools
 ./Bootstrap && ./configure && make && sudo make install
+cd ~
 echo "Installation done."
