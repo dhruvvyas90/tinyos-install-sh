@@ -4,7 +4,7 @@ echo "Installing msp tools..."
 sudo apt-get -y -q install msp430mcu msp430-libc mspdebug gcc-msp430 gdb-msp430
 echo "Ok."
 echo "Installing nesc dependancies.."
-sudo apt-get -y -q automake autoconf emacs gperf bison flex
+sudo apt-get -y -q automake autoconf emacs gperf bison flex git
 echo "Ok"
 echo "Downloading necs github source."
 mkdir ~/github/
