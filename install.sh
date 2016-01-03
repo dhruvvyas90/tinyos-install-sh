@@ -10,8 +10,8 @@ echo "Installing nesc dependancies.."
 sudo apt-get -y -q install automake autoconf emacs gperf bison flex git
 echo "Ok"
 echo "Downloading nesc github source."
-mkdir ~/github/
-cd ~/github/
+mkdir ./tinyos/
+cd ./tinyos/
 git clone https://github.com/tinyos/nesc
 echo "Installing nesc"
 cd nesc
@@ -22,5 +22,5 @@ git clone https://github.com/tinyos/tinyos-main
 echo "Installing tinyos"
 cd tinyos-main/tools
 ./Bootstrap && ./configure && make && sudo make install
-cd ~
+cd ..
 echo "Installation complete."
